@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9653464A21B8269900F76FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653464921B8269900F76FB3 /* AppDelegate.swift */; };
+		9653464C21B8269900F76FB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653464B21B8269900F76FB3 /* ViewController.swift */; };
+		9653464F21B8269900F76FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9653464D21B8269900F76FB3 /* Main.storyboard */; };
+		9653465121B8269C00F76FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9653465021B8269C00F76FB3 /* Assets.xcassets */; };
+		9653465421B8269C00F76FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9653465221B8269C00F76FB3 /* LaunchScreen.storyboard */; };
+		C5F377AE8177610B922331D9 /* Pods_SassWatch2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 778D14BAEF13A960441D4F70 /* Pods_SassWatch2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		064DFDE14925FC5C953D2B10 /* Pods-SassWatch2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SassWatch2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SassWatch2/Pods-SassWatch2.debug.xcconfig"; sourceTree = "<group>"; };
+		31EE409F87FE8E4580E95809 /* Pods-SassWatch2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SassWatch2.release.xcconfig"; path = "Pods/Target Support Files/Pods-SassWatch2/Pods-SassWatch2.release.xcconfig"; sourceTree = "<group>"; };
+		778D14BAEF13A960441D4F70 /* Pods_SassWatch2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SassWatch2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9653464621B8269900F76FB3 /* SassWatch2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SassWatch2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9653464921B8269900F76FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9653464B21B8269900F76FB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9653464E21B8269900F76FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9653465021B8269C00F76FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9653465321B8269C00F76FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9653465521B8269C00F76FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9653464321B8269900F76FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F377AE8177610B922331D9 /* Pods_SassWatch2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		444D41286F25C860D4D7E99C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				064DFDE14925FC5C953D2B10 /* Pods-SassWatch2.debug.xcconfig */,
+				31EE409F87FE8E4580E95809 /* Pods-SassWatch2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9653463D21B8269900F76FB3 = {
+			isa = PBXGroup;
+			children = (
+				9653464821B8269900F76FB3 /* SassWatch2 */,
+				9653464721B8269900F76FB3 /* Products */,
+				444D41286F25C860D4D7E99C /* Pods */,
+				C04559756D6B519C7272A058 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9653464721B8269900F76FB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9653464621B8269900F76FB3 /* SassWatch2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9653464821B8269900F76FB3 /* SassWatch2 */ = {
+			isa = PBXGroup;
+			children = (
+				9653464921B8269900F76FB3 /* AppDelegate.swift */,
+				9653464B21B8269900F76FB3 /* ViewController.swift */,
+				9653464D21B8269900F76FB3 /* Main.storyboard */,
+				9653465021B8269C00F76FB3 /* Assets.xcassets */,
+				9653465221B8269C00F76FB3 /* LaunchScreen.storyboard */,
+				9653465521B8269C00F76FB3 /* Info.plist */,
+			);
+			path = SassWatch2;
+			sourceTree = "<group>";
+		};
+		C04559756D6B519C7272A058 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				778D14BAEF13A960441D4F70 /* Pods_SassWatch2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9653464521B8269900F76FB3 /* SassWatch2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9653465821B8269C00F76FB3 /* Build configuration list for PBXNativeTarget "SassWatch2" */;
+			buildPhases = (
+				6C13798D2AF82C867FA64585 /* [CP] Check Pods Manifest.lock */,
+				9653464221B8269900F76FB3 /* Sources */,
+				9653464321B8269900F76FB3 /* Frameworks */,
+				9653464421B8269900F76FB3 /* Resources */,
+				1BBD7AE5529113BA9F6AEFBF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SassWatch2;
+			productName = SassWatch2;
+			productReference = 9653464621B8269900F76FB3 /* SassWatch2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9653463E21B8269900F76FB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Liana Haque";
+				TargetAttributes = {
+					9653464521B8269900F76FB3 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 9653464121B8269900F76FB3 /* Build configuration list for PBXProject "SassWatch2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9653463D21B8269900F76FB3;
+			productRefGroup = 9653464721B8269900F76FB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9653464521B8269900F76FB3 /* SassWatch2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9653464421B8269900F76FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9653465421B8269C00F76FB3 /* LaunchScreen.storyboard in Resources */,
+				9653465121B8269C00F76FB3 /* Assets.xcassets in Resources */,
+				9653464F21B8269900F76FB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BBD7AE5529113BA9F6AEFBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SassWatch2/Pods-SassWatch2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SassWatch2/Pods-SassWatch2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C13798D2AF82C867FA64585 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SassWatch2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9653464221B8269900F76FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9653464C21B8269900F76FB3 /* ViewController.swift in Sources */,
+				9653464A21B8269900F76FB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9653464D21B8269900F76FB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9653464E21B8269900F76FB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9653465221B8269C00F76FB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9653465321B8269C00F76FB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9653465621B8269C00F76FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9653465721B8269C00F76FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9653465921B8269C00F76FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064DFDE14925FC5C953D2B10 /* Pods-SassWatch2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3E7249ZAC;
+				INFOPLIST_FILE = SassWatch2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhaquebaruma.SassWatch2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9653465A21B8269C00F76FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31EE409F87FE8E4580E95809 /* Pods-SassWatch2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3E7249ZAC;
+				INFOPLIST_FILE = SassWatch2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhaquebaruma.SassWatch2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9653464121B8269900F76FB3 /* Build configuration list for PBXProject "SassWatch2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9653465621B8269C00F76FB3 /* Debug */,
+				9653465721B8269C00F76FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9653465821B8269C00F76FB3 /* Build configuration list for PBXNativeTarget "SassWatch2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9653465921B8269C00F76FB3 /* Debug */,
+				9653465A21B8269C00F76FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9653463E21B8269900F76FB3 /* Project object */;
+}
